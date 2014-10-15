@@ -1,0 +1,430 @@
+/* ==========================================================================
+   HTML5 Boilerplate styles - h5bp.com (generated via initializr.com)
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ===== Initializr Styles ==================================================
+   Author: Jonathan Verrecchia - verekia.com/initializr/responsive-template
+   ========================================================================== */
+
+body {
+    font: 16px/26px Helvetica, Helvetica Neue, Arial;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 5%;
+}
+
+.clearfix {
+  clear: both;
+  }
+
+body {
+  background: #070716;
+}
+
+h1, h2, form {
+  width: 480px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 20px; 
+}
+
+h2 {
+  margin-top: 50px;
+}
+
+form {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-top: 15px;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  text-transform: uppercase;
+  color: #999;
+}
+
+.form-group input[type=text],
+.form-group input[type=date],
+.form-group input[type=password] {
+  height: 40px;
+  font-size: 20px;
+  display: block;
+  width: 474px;
+/*  font-family: "ff-clan-web-pro-wide", sans-serif;*/
+  padding: 3px;
+  border-radius:  13px;
+  border: none;
+  text-transform: uppercase;
+}
+
+.form-group input[type=text].half-input {
+  width: 225px;
+  margin-right: 18px;
+  float: left;
+}
+
+.form-group input[type=text].cvv-input {
+  width: 70px;
+}
+
+.form-group input[type=text].city {
+  width: 130px;
+}
+
+.form-group input[type=text].half-input:last-child {
+  margin-right: 0;
+}
+
+
+.county-group {
+  width: 120px;
+  float: left;
+ position: absolute;
+ padding-left: 150px;
+}
+
+.county-group input[type=text] {
+  width: 150px;
+}
+
+.county-group1 {
+  width: 120px;
+  float: left;
+
+ padding-left: 120px;
+}
+
+.county-group1 input[type=text] {
+  width: 150px;
+}
+
+.cvv-group {
+  padding-left: 20px;
+  width: 70px;
+  float: left;
+}
+
+.city-group {
+  width: 200px;
+  padding-left: 90px;
+  margin-top: -72px;
+  margin-left: 20px;
+}
+
+.state-group {
+  width: 180px;
+  text-align: left;
+  margin-top: -72px;
+  margin-left: -65px;
+  position: absolute;
+}
+.state-group1 {
+  width: 180px;
+  text-align: left;
+  margin-top: -72px;
+  margin-left: -185px;
+  position: absolute;
+}
+
+.state-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  font-size: 20px;
+  border-radius:13px;
+  height: 48px;
+}
+
+.state-group1 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  font-size: 20px;
+  border-radius:13px;
+  height: 48px;
+}
+
+.mailing-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  font-size: 20px;
+  border-radius:13px;
+  height: 50px;
+}
+
+#mailing-group {
+  width: 100px;
+}
+
+.mailing-group1 label {
+
+  text-align: center;
+}
+
+.mailing-group1 select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  font-size: 20px;
+  border-radius:13px;
+  height: 50px;
+}
+
+.select-wrapper select {
+  width: 120px;
+  height: 48px;
+}
+.select-wrapper+.select-wrapper {
+  margin-left: 20px;
+}
+
+#mailing-group {
+margin-left: 180px;
+text-align: center;
+}
+
+.select-wrapper {
+  float: left;
+  position: relative;
+}
+ 
+ select-wrapper:after {
+  content: "▼";
+  position: absolute;
+  color: #000;
+  top: 13px;
+  right: 7px;
+  background: #fff;
+}
+
+.zip-group {
+  width: 200px;
+  float: left;
+}
+
+.zip-group input[type=text] {
+  width: 120px;
+}
+
+.property-group {
+  position: absolute;
+  margin-top: 12px;
+  margin-left: -15px;
+}
+.property-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  font-size: 20px;
+  border-radius:13px;
+  height: 48px;
+}
+
+.mod1-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  font-size: 20px;
+  border-radius:13px;
+  height: 50px;
+}
+
+#mod1-group {
+  width: 100px;
+}
+
+#date-group {
+  width: 130px;
+  position: relative;
+  margin-left: 110px;
+}
+
+#date-group2 {
+  width: 130px;
+  position: relative;
+  margin-left: 100px;
+}
+
+#date-group3 {
+  width: 130px;
+  position: relative;
+  margin-left: 70px;
+}
+
+.date-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  font-size: 20px;
+  border-radius:13px;
+  height: 50px;
+  margin-left: 200px;
+}
+
+.court-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  font-size: 20px;
+  border-radius:13px;
+  height: 50px;
+}
+
+.court-group label {
+  text-align: center;
+}
+
+#court-group {
+  width: 100px;
+}
+
+#date-group4 {
+  width: 130px;
+  position: relative;
+  margin-left: 95px;
+}
+
+#date-group5 {
+  width: 130px;
+  position: relative;
+  margin-left: 65px;
+}
+
+.judgement-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  font-size: 20px;
+  border-radius:13px;
+  height: 50px;
+}
+
+#judgement-group {
+  width: 100px;
+  margin-left: 90px;
+}
+
+.sale-group select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: #fff;
+  font-size: 20px;
+  border-radius:13px;
+  height: 50px;
+}
+
+#sale-group {
+  width: 100px;
+  margin-left: 90px;
+}
+
+.date-group6 label{
+  margin-left: 170px
+}
+
+#date-group6 {
+  width: 130px;
+  position: relative;
+  margin-left: 175px;
+}
+
+.date-group7 label{
+  margin-left: 140px
+}
+
+.date-group8 label{
+  margin-left: 150px
+}
+
+.date-group9 label{
+  margin-left: 100px
+}
+
+#payments22 label {
+  text-align: center;
+}
+
+#boombat {
+  margin-bottom: 10px;
+  width: 200px;
+  margin-left: 140px;
+}
+  
+
+
+
+
+.sexy-button {
+  margin-top: 20px;
+  font-size: 35px;
+  padding: 4px 4px;
+  border-radius:13px;
+  border: none;
+  background: #00B4FF;
+/*  color: #fff;*/
+}
